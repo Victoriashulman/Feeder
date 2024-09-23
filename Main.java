@@ -11,6 +11,7 @@ public class Main
         int random = (int) (Math.random() * 10+1);
         System.out.println(random);
         System.out.println(Math.random() < 0.05);
-        
+        Feeder k = new Feeder(800);
+        System.out.println(k.simulateManyDays(5, 10));
     }
 }
