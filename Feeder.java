@@ -38,7 +38,6 @@ public class Feeder {
             days++;
         }
         return days;
-
     }
     public int getCurrentFood()
     {
